@@ -1,0 +1,45 @@
+html {
+    cursor: wait;
+}
+body {
+    background-color: azure;
+    font-family: "Monaco", Monaco, monospace;
+}
+
+.topnav {
+    border: transparent;
+    border-radius: 100px;
+    background-color: rgb(235, 245, 245);
+    overflow: hidden;
+    width: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 16px 34px;
+    text-decoration: none;
+    font-size: 16px;
+    overflow: hidden;
+    width: auto;
+}
+
+.topnav a:hover {
+    border: transparent;
+    border-radius: 100px;
+    background-color: rgb(219, 228, 236);
+    color: black;
+    overflow: hidden;
+}
+
+.topnav a.active {
+    border: transparent;
+    border-radius: 100px;
+    background: linear-gradient(90deg, #7a004b 10%, #2c0191 100%);
+    color: white;
+    overflow: hidden;
+}
